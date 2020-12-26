@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Market Store</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headers">
+            <div class="all-products">All Products</div>
+            <div style="display: flex; flex-direction: row;">
+                <a href="./index2.html"><img src="Images/shopping-cart.svg" alt="" class="img" onclick="renderItems()" ></a>
+                <div class="num" id="num"></div>
+            </div>
+        </div>
+
+        <div class="product-list">
+            <div class="product">
+                <div class="product-img"><img src="Images/broccoli.jpg" alt="" class="product-img"></div>
+                <div class="product-cost">7.00$</div>
+                <div class="product-info">Brocoli</div>
+                <div class="bottom-cont">
+                    <div class="quanty">1 piece 2.5kg (1kg=3.18$)</div>
+                    <button onclick="addProduct('Brocoli','7.00$')">Add To Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img"><img src="Images/potatoes.png" alt="" class="product-img"></div>
+                <div class="product-cost">1.89$</div>
+                <div class="product-info">ORGANIC potatoes, mostly firm,3</div>
+                <div class="bottom-cont">
+                    <div class="quanty">1 piece 3kg (1kg=0.63$)</div>
+                    <button onclick="addProduct('ORGANIC potatoes, mostly firm,3','1.89$')">Add To Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img"><img src="Images/Jacobs.jpg" alt="" class="product-img"></div>
+                <div class="product-cost">3.09$</div>
+                <div class="product-info">Jacobs Filter Cofdee Classic</div>
+                <div class="bottom-cont">
+                    <div class="quanty">500g</div>
+                    <button onclick="addProduct('Jacobs Filter Cofdee Classic','3.09$')">Add To Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img"><img src="Images/milk.jpg" alt="" class="product-img"></div>
+                <div class="product-cost">0.99$</div>
+                <div class="product-info">Fresh Milk</div>
+                <div class="bottom-cont">
+                    <div class="quanty">1 peace 1 L</div>
+                    <button onclick="addProduct('Fresh Milk','0.99$')">Add To Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img"><img src="Images/butter.png" alt="" class="product-img"></div>
+                <div class="product-cost">1.79$</div>
+                <div class="product-info">Landliebe Butter</div>
+                <div class="bottom-cont">
+                    <div class="quanty">1 peace 340g(1kg=4.90)</div>
+                    <button onclick="addProduct('Landliebe Butter','1.79$')">Add To Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img"><img src="Images/range-eggs.jpg" alt="" class="product-img"></div>
+                <div class="product-cost">2.09$</div>
+                <div class="product-info">Best Choice free range eggs</div>
+                <div class="bottom-cont">
+                    <div class="quanty">10 peaces</div>
+                    <button onclick="addProduct('Best Choice free range eggs','2.09$')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
