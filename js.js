@@ -59,7 +59,7 @@ function renderItems(){
                 </div>
             </div>
             <div class="right-container">
-                <div class="quantity1">Quanty:</div>
+                <div class="quantity1">Quantity:</div>
                 <div class="quantity2">${itemQuanty[Object.keys(item)[0]]}</div>
             </div>
         </div>`
