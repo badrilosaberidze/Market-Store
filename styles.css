@@ -151,3 +151,40 @@ button:hover{
     align-items: center;
     font-size: 40px;
 }
+
+@media only screen and (max-width:600px){
+    .product{
+        max-width: 160px;
+        max-height: 160px;
+    }
+    .product-img img{
+        width: 60px;
+        height: 60px;
+    }
+    .quanty{
+        font-size: 12px;
+    }
+    .product-cost{
+        font-size: 17px;
+    }
+    .product-info{
+        font-size:15px;
+        padding-bottom:10px;
+    }
+    button{
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .info{
+        font-size: 20px;
+    }
+    .price{
+        font-size: 25px;
+    }
+    .quantity1 , .quantity2{
+        font-size: 25px;
+    }
+    .right-container{
+        width: 45%;
+    }
+}
